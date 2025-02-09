@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box 1 */
+
+/* parent of logo */
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+.logo{
+    /* here we set backgroud image  */
+    background-image: url("amazon_logo.png");
+    background-size: cover ;
+    height: 60px;
+    width: 110%;
+    
+}
+.border{
+    border: 1.5px solid transparent
+}
+/* This will produce a white border when we hover on logo */
+.border:hover{
+    border: 1.5px solid white
+}
+
+/* B0X2 */
+
+.add-icon{
+    display: flex;
+    
+}
+
+.add-1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-2{
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+
+/* Box 3 */
+
+.nav-search{
+    display: flex;
+    justify-self: space-evenly;
+    width:620px;
+    height: 40px;
+    border-radius: 8px ;
+
+}
+.nav-search:hover{
+    border: 4px solid #febd68;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color:#0f1111;
+}
+/* Box4 */
+
+span{
+    font-size: 0.85rem;
+
+}
+.nav-sec{
+    font-size:1rem;
+    font-weight: 700;
+}
+ /* BOx 6 */
+
+ /* here we first defined class and a specific tag on which we want the styling */
+ .cart i {
+    font-size: 35px;
+    width: 30px;
+ }
+
+ .cart{
+    font-size: 0.85rem;
+    font-weight: 900;
+ }
+
+ /* Panel */
+
+ .panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .panel-ops a{
+    display: inline;
+    margin-left: 15px;
+    
+    
+ }
+ .panel-ops{
+    width: 70%;
+    font-size: 1.1rem;
+    
+    
+ }
+ .deals{
+    font-size: 1.1rem;
+    font-weight: 700;
+ }
+
+ /* hero section  */
+
+ .hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height:600px;
+    display: flex;
+ }
+
+ /* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+
+    height: 500px;
+    width: 23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.box-content{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+
+.shop-section h2{
+    font-size: 25px;
+    font-weight: 700;
+
+
+}
+
+
+.box1-img{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 400px;
+    
+}
+
+.box2-img{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+.box3-img{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+.box4-img{
+    background-image: url("box4_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+.box5-img{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+.box6-img{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+.box7-img{
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+.box8-img{
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:400px;
+    
+}
+
+footer{
+    margin-top: 25px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dddddd
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+
+}
+.logo{
+    /* here we set backgroud image  */
+    background-image: url("amazon_logo.png");
+    background-size: cover ;
+    height: 60px;
+    width: 110px;
+    
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height:80px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-align: center;
+   
+}
+.pages{
+   
+   padding-top: 25px;
+
+}
+.copyright{
+
+    padding-top:5px;    
+}
+
+
